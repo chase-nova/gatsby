@@ -1,0 +1,50 @@
+{
+  "name": "gatsby-auth-starter-aws",
+  "description": "Gatsby authentication starter for AWS",
+  "version": "1.0.0",
+  "author": "Ben Siewert",
+  "dependencies": {
+    "aws-amplify": "^3.3.15",
+    "aws-amplify-react": "^4.2.19",
+    "gatsby": "^2.26.1",
+    "gatsby-image": "^2.5.0",
+    "gatsby-plugin-create-client-paths": "^2.9.0",
+    "gatsby-plugin-google-analytics": "^2.10.0",
+    "gatsby-plugin-netlify": "^2.10.0",
+    "gatsby-plugin-offline": "^3.9.0",
+    "gatsby-plugin-react-helmet": "^3.9.0",
+    "gatsby-plugin-react-svg": "^3.0.0",
+    "gatsby-plugin-sass": "^3.1.0",
+    "gatsby-plugin-sharp": "^2.8.0",
+    "gatsby-source-filesystem": "^2.5.0",
+    "gatsby-transformer-sharp": "^2.6.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^6.1.0"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "clean": "rimraf .cache public",
+    "build": "gatsby build",
+    "dev": "npm run clean && gatsby develop",
+    "start": "gatsby develop",
+    "format": "prettier --write '**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@hot-loader/react-dom": "^16.8.6",
+    "bootstrap": "^4.3.1",
+    "modern-normalize": "^0.5.0",
+    "node-sass": "^4.13.1",
+    "prettier": "^2.2.1",
+    "rimraf": "^2.6.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/beamsies/gatsby-starter-auth-aws-amplify"
+  }
+}
