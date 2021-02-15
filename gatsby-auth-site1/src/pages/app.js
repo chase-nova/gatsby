@@ -13,8 +13,8 @@ import PublicRoute from "../components/Routes/PublicRoute";
 import Amplify from "aws-amplify";
 import config from "../aws-exports";
 
-const App = () => {
-  Amplify.configure(config);
+const app = () => {
+  //Amplify.configure(config);
   return (
     <Router>
       <PrivateRoute path="/home" component={Home} />
@@ -27,4 +27,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default app;
